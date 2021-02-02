@@ -24,8 +24,10 @@ function checkClick() {
   const personClicked = $(this).data('name');
 
   if (personClicked === $('#targetName').text()) {
-    console.log('yay');
+    alert('You did it!');
     shuffleName();
+  } else {
+    alert('Try again!');
   }
 }
 
