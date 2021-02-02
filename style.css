@@ -14,10 +14,8 @@ h1 {
 }
 
 #targetContainer {
-  font-size: 30px;
-  font-family: Georgia;
-  width: 30%;
-  margin: 5px auto;
-  font-weight: bold;
+  font: 30px Georgia;
   border-radius: 20px;
+  width: 35%;
+  margin: 5px auto;
 }
