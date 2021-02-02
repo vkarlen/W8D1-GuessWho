@@ -2,8 +2,22 @@ body {
   text-align: center;
 }
 
+h1 {
+  font: 30px Verdana, sans-serif;
+  margin: 5px;
+}
+
 #imageContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#targetContainer {
+  font-size: 30px;
+  font-family: Georgia;
+  width: 30%;
+  margin: 5px auto;
+  font-weight: bold;
+  border-radius: 20px;
 }
